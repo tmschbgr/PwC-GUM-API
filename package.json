@@ -1,0 +1,33 @@
+{
+  "name": "pwc_gum_api",
+  "version": "1.0.0",
+  "description": "Node.JS example of how to communicate with pwc's GUM service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmschbgr/PwC-GUM-API.git"
+  },
+  "keywords": [
+    "pwc",
+    "gum",
+    "api",
+    "soap"
+  ],
+  "author": "Tim Schubiger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmschbgr/PwC-GUM-API/issues"
+  },
+  "homepage": "https://github.com/tmschbgr/PwC-GUM-API#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "request-promise": "^4.2.2",
+    "soap": "^0.23.0"
+  }
+}
